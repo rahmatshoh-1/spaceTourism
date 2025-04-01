@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("@/assets/fonts/Bellefair-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1440px;
+
+  /* container */
+  --container: 100%;
+  --container-sm: 327px; /* Mobile (375px - 24px * 2) */
+  --container-md: 728px; /* Tablet (768px - 40px * 2) */
+  --container-lg: 1110px; /* Desktop (1440px - 165px * 2) */
+
+  /* colors */
+  --color-blue-300: #d0d6f9;
+  --color-blue-900: #0b0d17;
+  --color-white: #ffffff;
+  /* fonts  */
+  --font-primary: "Bellefair", serif;
+  /* blur */
+  --blur-xs: 80px;
+
+  /* desctop sizes */
+  --text-desctop-preset-1: 144px;
+  --text-desctop-preset-2: 96px;
+  --text-desctop-preset-3: 56px;
+  --text-desctop-preset-4: 32px;
+  --text-desctop-preset-5: 28px;
+  --text-desctop-preset-6: 28px;
+  --text-desctop-preset-7: 16px;
+  --text-desctop-preset-8: 14px;
+  --text-desctop-preset-9: 18px/180%;
+
+  /* tablet sizes */
+  --text-tablet-preset-2: 80px;
+  --text-tablet-preset-3: 40px;
+  --text-tablet-preset-4: 24px;
+  --text-tablet-preset-5: 20px;
+  --text-tablet-preset-9: 16px/180%;
+
+    /* mobile sizes */
+    --text-mobile-preset-1: 80px;
+    --text-mobile-preset-2: 56px;
+    --text-mobile-preset-3: 24px;
+    --text-mobile-preset-4: 18px;
+    --text-mobile-preset-6: 18px;
+    --text-mobile-preset-8: 14px;
+    --text-mobile-preset-9: 15px/180%;
+}
+body {
+  font-family: var(--font-primary);
+}
