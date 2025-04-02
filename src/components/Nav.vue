@@ -45,7 +45,7 @@ const toggleMenu = () => {
       <!-- Ссылки меню -->
       <RouterLink
         to="/"
-        class="text-desctop-preset-8 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
+        class="text-desctop-preset-7 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
         :class="{
           'border-white': route.path === '/',
           'border-transparent': route.path !== '/'
@@ -57,7 +57,7 @@ const toggleMenu = () => {
 
       <RouterLink
         to="/destination"
-        class="text-desctop-preset-8 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
+        class="text-desctop-preset-7 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
         :class="{
           'border-white': route.path === '/destination',
           'border-transparent': route.path !== '/destination'
@@ -69,7 +69,7 @@ const toggleMenu = () => {
 
       <RouterLink
         to="/crew"
-        class="text-desctop-preset-8 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
+        class="text-desctop-preset-7 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
         :class="{
           'border-white': route.path === '/crew',
           'border-transparent': route.path !== '/crew'
@@ -81,7 +81,7 @@ const toggleMenu = () => {
 
       <RouterLink
         to="/technology"
-        class="text-desctop-preset-8 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
+        class="text-desctop-preset-7 border-r-3 lg:border-r-0 lg:border-b-3 mb-8 lg:mb-0 lg:py-10"
         :class="{
           'border-white': route.path === '/technology',
           'border-transparent': route.path !== '/technology'
