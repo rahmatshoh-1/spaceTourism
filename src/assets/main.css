@@ -2,10 +2,100 @@
 
 @font-face {
   font-family: "Bellefair";
-  src: url("@/assets/fonts/Bellefair-Regular.ttf") format("truetype");
+  src: url("/fonts/Bellefair-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "BarlowCondensed";
+  src: url("/fonts/Barlow/BarlowCondensed-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
 @theme {
   /* Breakpoints */
   --breakpoint-*: initial;
@@ -25,8 +115,8 @@
   --color-white: #ffffff;
   /* fonts  */
   --font-primary: "Bellefair", serif;
-  /* blur */
-  --blur-xs: 80px;
+  --font-secondary: "Barlow", sans-serif;
+  --font-tertiary: "BarlowCondensed", sans-serif;
 
   /* desctop sizes */
   --text-desctop-preset-1: 144px;
@@ -37,14 +127,14 @@
   --text-desctop-preset-6: 28px;
   --text-desctop-preset-7: 16px;
   --text-desctop-preset-8: 14px;
-  --text-desctop-preset-9: 18px/180%;
+  --text-desctop-preset-9: 18px;
 
   /* tablet sizes */
   --text-tablet-preset-2: 80px;
   --text-tablet-preset-3: 40px;
   --text-tablet-preset-4: 24px;
   --text-tablet-preset-5: 20px;
-  --text-tablet-preset-9: 16px/180%;
+  --text-tablet-preset-9: 16px;
 
     /* mobile sizes */
     --text-mobile-preset-1: 80px;
@@ -53,7 +143,7 @@
     --text-mobile-preset-4: 18px;
     --text-mobile-preset-6: 18px;
     --text-mobile-preset-8: 14px;
-    --text-mobile-preset-9: 15px/180%;
+    --text-mobile-preset-9: 15px;
 }
 body {
   font-family: var(--font-primary);
